@@ -11,7 +11,7 @@ class LoginPage():
         userNameFieldElement.send_keys(username)
 
     def click_to_continue_button(self):
-        continueButtonElement = driver.find_element(By.ID, "continue")
+        continueButtonElement = self.driver.find_element(By.ID, "continue")
         continueButtonElement.click()
 
     def fill_password_field(self, password):

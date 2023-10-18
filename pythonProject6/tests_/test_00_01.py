@@ -17,7 +17,7 @@ userNameFieldElement.send_keys("lilmankan@gmail.com")
 continueButtonElement = driver.find_element(By.ID, "continue")
 continueButtonElement.click()
 
-passwordFieldElement = driver.find_element(By.ID,"ap_password")
+passwordFieldElement = driver.find_element(By.ID, "ap_password")
 passwordFieldElement.clear()
 passwordFieldElement.send_keys("amazonlilit2023@")
 
